@@ -120,7 +120,7 @@ function ProductDetails({ productQuantity, setProductQuantity, setCartProductQua
                     <img src="/images/icon-plus.svg" alt="" />
                 </div>
             </div>
-            {productQuantity > 1 ? 
+            {productQuantity > 0 ? 
                 (
                     <button onClick={handleAddToCart}  className="w-full h-12 bg-orange-500 py-2 flex items-center justify-center gap-4 text-xs rounded-lg font-bold text-white shadow-md shadow-orange hover:brightness-125 transition select-none" id="add-cart">
                         <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 20">
